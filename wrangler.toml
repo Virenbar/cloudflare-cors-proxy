@@ -1,0 +1,7 @@
+name = "cors"
+main = "src/index.ts"
+compatibility_date = "2022-10-20"
+
+kv_namespaces = [
+  { binding = "CORS", id = "3dcba5b46b164a8ca7fc6223fc2918b3" }
+]

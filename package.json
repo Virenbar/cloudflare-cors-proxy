@@ -1,0 +1,25 @@
+{
+    "name": "cloudflare-cors-proxy",
+    "version": "1.0.0",
+    "description": "Simple CORS proxy for cloudflare workers",
+    "author": "Virenbar",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Virenbar/cloudflare-cors-proxy.git"
+    },
+    "scripts": {
+        "start": "wrangler dev",
+        "deploy": "wrangler publish"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^3.17.0",
+        "@typescript-eslint/eslint-plugin": "^5.40.1",
+        "@typescript-eslint/parser": "^5.40.1",
+        "eslint": "^8.25.0",
+        "eslint-plugin-import": "^2.26.0",
+        "typescript": "^4.8.4",
+        "wrangler": "2.1.12"
+    },
+    "private": true
+}
